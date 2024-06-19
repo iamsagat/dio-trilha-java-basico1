@@ -23,8 +23,8 @@ public class Contador {
 			throw new ParametrosInvalidosException();
 		} else {
 			int contagem = parametroDois - parametroUm;
-			for (int i = 1; i <= contagem; i++) {
-				System.out.println("Imprimindo o número " + i);
+			for (int x = 1; x <= contagem; x++) {
+				System.out.println("Imprimindo o número " + x);
 			}
 		}
 	}
